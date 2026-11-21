@@ -1,0 +1,26 @@
+{
+  "name": "ronipaul-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Roni Paul \u2013 Health-Tech Entrepreneur, Founder of MedMate. Personal founder / PR website.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "deploy": "netlify deploy --prod --build && node scripts/indexnow-ping.mjs https://ronipaul.com",
+    "og": "node scripts/render-essay-cards.js"
+  },
+  "dependencies": {
+    "next": "^16.2.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5.7.3",
+    "puppeteer-core": "^23.11.1"
+  }
+}

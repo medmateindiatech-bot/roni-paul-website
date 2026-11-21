@@ -1,0 +1,12 @@
+node_modules/
+.next/
+.netlify/
+out/
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+
+# Kept out of the public repo: unpublished drafts and working screenshots/mockups
+content/drafts/
+.audit/
+.mock/
